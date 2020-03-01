@@ -11,21 +11,20 @@ teachers = [
         "price": 900,
         "goals": ["travel", "relocate", "study"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": False, "12:00": False, "14:00": True, "16:00": False, "18:00": False,
+            "mon": {"08:00": True, "10:00": False, "12:00": False, "14:00": True, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "wed": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": True, "18:00": False,
+            "wed": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": True, "108:00": False,
                     "20:00": False, "22:00": False},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": False, "22:00": False},
+            "sun": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": False, "22:00": False}
         }
     },
     {
@@ -37,21 +36,20 @@ teachers = [
         "price": 1200,
         "goals": ["relocate", "study"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "mon": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "wed": {"8:00": True, "10:00": True, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "wed": {"08:00": True, "10:00": True, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": True, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": True, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": False, "22:00": False},
+            "sun": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": False, "22:00": False}
         }
     },
     {
@@ -63,21 +61,20 @@ teachers = [
         "price": 1300,
         "goals": ["work"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": True,
+            "mon": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": True,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": True, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": True, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "wed": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "wed": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": False, "22:00": False},
+            "sun": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": False, "22:00": False}
         }
     },
     {
@@ -89,21 +86,20 @@ teachers = [
         "price": 1300,
         "goals": ["travel", "study"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "mon": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "wed": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "wed": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": False, "14:00": True, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": False, "14:00": True, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": True, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": True, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": False, "22:00": True},
+            "sun": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": False, "22:00": True}
         }
     },
     {
@@ -115,21 +111,20 @@ teachers = [
         "price": 900,
         "goals": ["travel"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "mon": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "wed": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "wed": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": False, "22:00": False},
+            "sun": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": False, "22:00": False}
         }
     },
     {
@@ -141,21 +136,20 @@ teachers = [
         "price": 800,
         "goals": ["travel", "study"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "mon": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "wed": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "wed": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": False, "22:00": False},
+            "sun": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": False, "22:00": False}
         }
     },
     {
@@ -167,21 +161,20 @@ teachers = [
         "price": 1200,
         "goals": ["travel", "relocate", "study"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "mon": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "wed": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "wed": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": False, "22:00": False},
+            "sun": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": False, "22:00": False}
         }
     },
 
@@ -194,21 +187,20 @@ teachers = [
         "price": 1100,
         "goals": ["study"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": True, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "mon": {"08:00": True, "10:00": True, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": True},
-            "wed": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "wed": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": False, "22:00": False},
+            "sun": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": False, "22:00": False}
         }
     },
 
@@ -221,21 +213,20 @@ teachers = [
         "price": 1700,
         "goals": ["relocate", "work"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "18:00": False,
+            "mon": {"08:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": True},
-            "wed": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "wed": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": True, "22:00": False},
+            "sun": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": True, "22:00": False}
         }
     },
 
@@ -248,21 +239,20 @@ teachers = [
         "price": 1200,
         "goals": ["work"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "mon": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "wed": {"8:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "18:00": False,
+            "wed": {"08:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": True, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": True, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": False, "22:00": False},
+            "sun": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": False, "22:00": False}
         }
     },
 
@@ -275,21 +265,20 @@ teachers = [
         "price": 1100,
         "goals": ["travel", "study", "work"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "mon": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "wed": {"8:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "18:00": False,
+            "wed": {"08:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": True, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": False, "22:00": False},
+            "sun": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": False, "22:00": False}
         }
     },
 
@@ -302,21 +291,20 @@ teachers = [
         "price": 900,
         "goals": ["travel", "work"],
         "free": {
-
-            "mon": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "mon": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "tue": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "tue": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "wed": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "wed": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": True},
-            "thu": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "thu": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "fri": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "fri": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sat": {"8:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
+            "sat": {"08:00": True, "10:00": False, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
                     "20:00": False, "22:00": False},
-            "sun": {"8:00": True, "10:00": True, "12:00": False, "14:00": False, "16:00": False, "18:00": False,
-                    "20:00": False, "22:00": False},
+            "sun": {"08:00": True, "10:00": True, "12:00": False, "14:00": False, "16:00": False, "108:00": False,
+                    "20:00": False, "22:00": False}
         }
-    },
+    }
 ]

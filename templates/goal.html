@@ -3,7 +3,6 @@
 
 {% block container %}
 
-{% set lst = lst | sort(attribute='rating', reverse=True) %}
 {% set destiny = goals[goal][0].lower() + goals[goal][1:] %}
 
   <main class="container mt-3">
@@ -11,7 +10,7 @@
       <div class="row">
       <div class="col-12 col-lg-10 offset-lg-1 m-auto">
 
-      {% for teacher in lst %}
+      {% for teacher in teachers %}
 
         <div class="card mb-4">
           <div class="card-body">

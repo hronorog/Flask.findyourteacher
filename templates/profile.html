@@ -13,7 +13,7 @@
             <section class="teacher=info">
 
               <h1 class="h2">{{ teacher.name }}</h1>
-              <p>{% for goal in lst %}<span class="badge badge-secondary mr-2">{{ goal }} </span>{% endfor %}Рейтинг: {{ teacher.rating }} Ставка: {{ teacher.price }} руб / час</p>
+              <p>{% for goal in teacher.goals.split(' ') %}<span class="badge badge-secondary mr-2">{{ goal }} </span>{% endfor %}Рейтинг: {{ teacher.rating }} Ставка: {{ teacher.price }} руб / час</p>
               <p>{{ teacher.about }}</p>
 
             </section>
@@ -22,7 +22,7 @@
 
               <h4 class="mb-4 mt-5">Записаться на пробный урок</h4>
 
-              {% for day, hours in teacher.free.items() %}
+              {% for day, hours in lst.items() %}
 
               <h6 class="mt-4">{{ week[day] }}</h6>
 
