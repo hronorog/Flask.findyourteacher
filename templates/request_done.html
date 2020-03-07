@@ -2,9 +2,7 @@
 {% extends 'base.html' %}
 
 {% block container %}
-
   <main class="container mt-3">
-    <!-- HERO -->
     <div class="row mt-5">
       <div class="col-10 col-md-6 offset-1 offset-md-3">
         <div class="card mb-3">
@@ -15,10 +13,10 @@
           </div>
           <hr />
           <div class="card-body mx-5">
-            <p><b>Цель занятий:</b> {{ goal }}</p>
-            <p><b>Времени есть:</b> {{ time }} часа в неделю</p>
-            <p><b>Имя:</b> {{ clientName }}</p>
-            <p><b>Телефон:</b> {{ clientPhone }}</p>
+            <p><b>Цель занятий:</b> {{ goals[form.radio_goal.data] }}</p>
+            <p><b>Времени есть:</b> {{ form.radio_time.data }}</p>
+            <p><b>Имя:</b> {{ form.name.data }}</p>
+            <p><b>Телефон:</b> {{ form.phone.data }}</p>
           </div>
         </div>
       </div>
