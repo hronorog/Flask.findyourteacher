@@ -1,9 +1,10 @@
 # -*- coding: utf8 -*-
-from flask import Flask, render_template, request
+from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
 from random import sample
 from wtforms import RadioField, HiddenField, StringField, SubmitField
+from wtforms.validators import InputRequired
 import data
 import json
 
@@ -32,6 +33,7 @@ app.secret_key = '123456'
 db = SQLAlchemy(app)
 
 
+# модель учителя
 class Teacher(db.Model):
     __tablename__ = 'teachers'
     id = db.Column(db.Integer, primary_key=True)
@@ -64,33 +66,38 @@ class Requestss(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     client_name = db.Column(db.String(150), nullable=False)
     client_phone = db.Column(db.String(20), nullable=False)
-    goal = db.Column(db.String(100), unique=True, nullable=False)
-    time = db.Column(db.String(100), unique=True, nullable=False)
+    goal = db.Column(db.String(100), unique=False, nullable=False)
+    time = db.Column(db.String(100), unique=False, nullable=False)
 
 
-# форма для заполнения
+# форма для бронирования времени
 class Booking(FlaskForm):
-    # для бронирования времени
     teacher_id = HiddenField('Учитель')
     day = HiddenField('День недели')
     hour = HiddenField('Время')
-    name = StringField('Имя пользователя')
-    phone = StringField('Номер телефона')
+    name = StringField('Имя пользователя', validators=[InputRequired(message="Введите ваше имя")])
+    phone = StringField('Номер телефона', validators=[InputRequired(message="Введите телефон")])
     submit = SubmitField()
-    # для подбора учителя
+
+
+# для подбора учителя
+class Requare(FlaskForm):
     radio_goal = RadioField("Цель занятий", choices=[('travel', 'Для путешествий'),
                                                      ('study', 'Для учебы'),
                                                      ('work', 'Для работы'),
                                                      ('relocate', 'Для переезда')])
-    radio_time = RadioField("Время в неделю", choices=[(1, '1-2 часа в неделю'),
-                                                       (2, '3-5 часов в неделю'),
-                                                       (3, '5-7 часов в неделю'),
-                                                       (4, '7-10 часов в неделю')])
+    radio_time = RadioField("Время в неделю", choices=[('1-2 часа в неделю', '1-2 часа в неделю'),
+                                                       ('3-5 часов в неделю', '3-5 часов в неделю'),
+                                                       ('5-7 часов в неделю', '5-7 часов в неделю'),
+                                                       ('7-10 часов в неделю', '7-10 часов в неделю')])
+    name = StringField('Имя пользователя', validators=[InputRequired(message="Введите ваше имя")])
+    phone = StringField('Номер телефона', validators=[InputRequired(message="Введите телефон")])
+    submit = SubmitField()
 
 
 # создание БД, запись data.py в нее
-'''db.create_all()
-for t in data.teachers:
+db.create_all()
+'''for t in data.teachers:
     t = Teacher(name=t['name'],
                 about=t['about'],
                 rating=t['rating'],
@@ -99,8 +106,8 @@ for t in data.teachers:
                 goals=' '.join(t['goals']),
                 time=json.dumps(t['free']))
     db.session.add(t)
-db.session.commit()
-'''
+db.session.commit()'''
+
 
 teachers = db.session.query(Teacher).all()
 
@@ -132,7 +139,7 @@ def id_teach(id_teacher):
 
 @app.route('/goals/<goal>/')
 def to_goals(goal):
-    teachers = db.session.query(Teacher).filter(Teacher.goals.ilike(f"%{goal}%"))\
+    teachers = db.session.query(Teacher).filter(Teacher.goals.ilike(f"%{goal}%")) \
         .order_by(Teacher.rating.desc()).all()
     return render_template("goal.html",
                            icon=goal_icon[goal],
@@ -171,13 +178,13 @@ def booking_done():
 
 @app.route('/request/')
 def t_request():
-    form = Booking()
+    form = Requare()
     return render_template("request.html", form=form)
 
 
 @app.route('/request_done/', methods=['POST'])
 def request_done():
-    form = Booking()
+    form = Requare()
     user = Requestss(client_name=form.name.data,
                      client_phone=form.phone.data,
                      goal=form.radio_goal.data,
